@@ -1,0 +1,19 @@
+{
+    "version": "0.1",
+    "license": "MIT",
+    "name": "greabock/node-builder",
+    "authors": [
+        {
+            "name": "Greabock",
+            "email": "greabock@gmail.com"
+        }
+    ],
+    "require": {
+        "greabock/node-builder-support": "0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Greabock\\NodeBuilder\\Support\\": "src/"
+        }
+    }
+}
